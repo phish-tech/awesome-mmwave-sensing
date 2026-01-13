@@ -60,7 +60,7 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 | VS-07 | 2022 | Your Breath Doesn't Lie: Multi-user Authentication by Sensing Respiration Using mmWave Radar | IEEE SECON | DOI: https://doi.org/10.1109/SECON55815.2022.9918606 |
 | VS-08 | 2023 | Sparsity-Based Multi-Person Non-Contact Vital Signs Monitoring via FMCW Radar | IEEE JBHI | DOI: https://doi.org/10.1109/JBHI.2023.3255740 |
 | VS-09 | 2023 | Pi-ViMo: Physiology-inspired Robust Vital Sign Monitoring using mmWave Radars | ACM TIOT | DOI: https://doi.org/10.1145/3589347 |
-| VS-10 | 2025 | Event-level Identification of Sleep Apnea using FMCW Radar | Scientific Reports | DOI: https://doi.org/10.1038/s41598-025-02247-3 |
+| VS-10 | 2025 | Event-level Identification of Sleep Apnea using FMCW Radar | Scientific Reports |  https://doi.org/10.3390/bioengineering12040399 |
 
 **More (Vital Signs):**
 - Multi-person TI reference (classic industry technical report): https://e2echina.ti.com/cfs-file/__key/communityserver-discussions-components-files/60/Vital-Signs-Monitoring-of-Multiple-People-using-a.pdf
