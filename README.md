@@ -47,10 +47,6 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 
 ## 📚 Academic Paper Index
 
-**Indexing convention:**  
-- **ID** is stable for citation inside this repo (e.g., `VS-03`, `HCI-07`, `TRK-02`).  
-- Links prioritize publisher DOI pages; arXiv/project pages are used when appropriate.
-
 ### Vital Signs
 
 | ID | Year | Title | Venue | Links |
