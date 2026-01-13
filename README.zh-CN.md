@@ -111,8 +111,6 @@
 ## 🛠 开源工具
 
 - OpenRadar：https://github.com/PreSenseRadar/OpenRadar  
-- pymmw：https://github.com/ibaiGorordo/pymmw  
-- open_radar_processing：https://github.com/khpeek/open_radar_processing  
 - ti_mmwave_rospkg：https://github.com/robotics-upo/ti_mmwave_rospkg  
 - TI mmWave SDK（官方）：https://www.ti.com/tool/MMWAVE-SDK  
 
