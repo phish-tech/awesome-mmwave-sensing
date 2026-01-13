@@ -109,10 +109,6 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 
 - **OpenRadar** — Open-source radar signal processing modules and examples.  
   https://github.com/PreSenseRadar/OpenRadar
-- **pymmw** — Python toolbox for parsing/processing TI mmWave radar data.  
-  https://github.com/ibaiGorordo/pymmw
-- **open_radar_processing** — Python radar processing examples and utilities.  
-  https://github.com/khpeek/open_radar_processing
 - **ti_mmwave_rospkg** — ROS integration for TI mmWave sensors.  
   https://github.com/robotics-upo/ti_mmwave_rospkg
 - **TI mmWave SDK (official)** — Firmware + reference processing chain for IWR/AWR devices.  
