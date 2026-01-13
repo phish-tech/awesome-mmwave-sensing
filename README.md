@@ -81,11 +81,11 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 | HCI-04 | 2020 | Handwriting Tracking using 60 GHz mmWave Radar | IEEE WF-IoT | DOI: https://doi.org/10.1109/WF-IoT48130.2020.9221158 |
 | HCI-05 | 2021 | Hand Gesture Recognition Using 802.11ad mmWave Sensor in the Mobile Device | IEEE WCNC Workshops | DOI: https://doi.org/10.1109/WCNCW49093.2021.9419978 |
 | HCI-06 | 2021 | mmWrite: Passive Handwriting Tracking Using a Single Millimeter-Wave Radio | IEEE IoT-J | DOI: https://doi.org/10.1109/JIOT.2021.3066507 |
-| HCI-11 | 2021 | DI-Gesture: A Fine-grained Dataset and Benchmark for Doppler Imaging-based Gesture Recognition | arXiv | https://arxiv.org/abs/2101.05214 |
-| HCI-07 | 2022 | mm4Arm: Leveraging Properties of mmWave Signals for 3D Arm Motion Tracking | ACM POMACS | DOI: https://doi.org/10.1145/3570613 |
-| HCI-08 | 2022 | GaitCube: Deep Data Cube Learning for Human Recognition With Millimeter-Wave Radio | IEEE IoT-J | DOI: https://doi.org/10.1109/JIOT.2021.3083934 |
-| HCI-09 | 2024 | mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification | ACM TOSN | DOI: https://doi.org/10.1145/3605945 |
-| HCI-10 | 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | ACM IMWUT | DOI: https://doi.org/10.1145/3749504 |
+| HCI-07 | 2021 | DI-Gesture: A Fine-grained Dataset and Benchmark for Doppler Imaging-based Gesture Recognition | arXiv | https://arxiv.org/abs/2101.05214 |
+| HCI-08 | 2022 | mm4Arm: Leveraging Properties of mmWave Signals for 3D Arm Motion Tracking | ACM POMACS | DOI: https://doi.org/10.1145/3570613 |
+| HCI-09 | 2022 | GaitCube: Deep Data Cube Learning for Human Recognition With Millimeter-Wave Radio | IEEE IoT-J | DOI: https://doi.org/10.1109/JIOT.2021.3083934 |
+| HCI-10 | 2024 | mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification | ACM TOSN | DOI: https://doi.org/10.1145/3605945 |
+| HCI-11 | 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | ACM IMWUT | DOI: https://doi.org/10.1145/3749504 |
 
 
 ---
@@ -100,11 +100,12 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 | TRK-04 | 2022 | mTransSee: Enabling Real-time mmWave Sparse Imaging through Non-RF Occluders | ACM IMWUT | DOI: https://doi.org/10.1145/3517231 |
 | TRK-05 | 2023 | HuPR: A Benchmark for Human Pose Estimation Using Millimeter Wave Radar | IEEE WACV | PDF: https://openaccess.thecvf.com/content/WACV2023/papers/Lee_HuPR_A_Benchmark_for_Human_Pose_Estimation_Using_Millimeter_Wave_WACV_2023_paper.pdf |
 | TRK-06 | 2023 | Environment-aware Multi-person Tracking in Indoor Environments with mmWave Radars | ACM IMWUT | DOI: https://doi.org/10.1145/3610902 |
-| TRK-10 | 2023 | MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset for Wireless Human Sensing | NeurIPS Datasets & Benchmarks / arXiv | Project: https://ntu-aiot-lab.github.io/mm-fi |
-| TRK-07 | 2024 | PmTrack: Enabling Personalized mmWave-based Human Tracking in Commodity Smart Home | ACM IMWUT | DOI: https://doi.org/10.1145/3631433 |
-| TRK-08 | 2024 | Waffle: Waterproof mmWave-based Sensing Inside Bathrooms with Running Water | ACM IMWUT | DOI: https://doi.org/10.1145/3631458 |
-| TRK-09 | 2025 | DragonFly: Drone-based 3D Localization of Backscatter Tags Using mmWave Radar | ACM MobiCom | DOI: https://doi.org/10.1145/3680207.3765269 |
-| TRK-11 | 2024 | Fast Human Action Recognition via mmWave Radar Point Clouds | ACM (conference proceedings) | DOI: https://doi.org/10.1145/3627673.3679787 |
+| TRK-07 | 2023 | MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset for Wireless Human Sensing | NeurIPS Datasets & Benchmarks / arXiv | Project: https://ntu-aiot-lab.github.io/mm-fi |
+| TRK-08 | 2024 | PmTrack: Enabling Personalized mmWave-based Human Tracking in Commodity Smart Home | ACM IMWUT | DOI: https://doi.org/10.1145/3631433 |
+| TRK-09 | 2024 | Waffle: Waterproof mmWave-based Sensing Inside Bathrooms with Running Water | ACM IMWUT | DOI: https://doi.org/10.1145/3631458 |
+| TRK-10 | 2024 | Fast Human Action Recognition via mmWave Radar Point Clouds | ACM (conference proceedings) | DOI: https://doi.org/10.1145/3627673.3679787 |
+| TRK-11 | 2025 | DragonFly: Drone-based 3D Localization of Backscatter Tags Using mmWave Radar | ACM MobiCom | DOI: https://doi.org/10.1145/3680207.3765269 |
+
 
 ---
 
