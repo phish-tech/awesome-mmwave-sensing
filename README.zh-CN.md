@@ -2,6 +2,10 @@
 <!-- File: README.zh-CN.md (简体中文) -->
 <!-- =============================== -->
 
+<div align="center">
+  <img src="banner.png" width="100%" alt="Awesome mmWave Sensing Banner">
+</div>
+
 # awesome-mmwave-sensing
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
