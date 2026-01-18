@@ -143,18 +143,14 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 
 ## 👥 Community & Contributing
 
-Contributions are welcome and appreciated.
+We believe that an "Awesome" list is built by the community. We'd love for you to help us improve this list!
 
-**How to add a paper/tool/dataset**
-1. Keep scope: **mmWave radar sensing** (vital signs / HCI / tracking & imaging).
-2. Prefer peer-reviewed venues (ACM/IEEE/Elsevier/Nature family) and stable links (DOI/project page).
-3. Follow the indexing format: add a new ID and a one-line citation.
+**Want to add a paper, tool, or dataset?**
+Please read our 👉 **[Contribution Guidelines](CONTRIBUTING.md)** first.
 
-**Suggested repo files**
-- `CONTRIBUTING.md` — contribution rules + formatting
-- `CODE_OF_CONDUCT.md` — community policy
-- `CITATION.cff` — how to cite this list
+It helps you format your entry correctly (ID, Year, Venue) so we can merge your PR faster!
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 ---
 
 ## 🧩 Phish-tech Present
