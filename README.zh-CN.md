@@ -1,7 +1,3 @@
-<!-- =============================== -->
-<!-- File: README.zh-CN.md (简体中文) -->
-<!-- =============================== -->
-
 <div align="center">
   <img src="banner.png" width="100%" alt="Awesome mmWave Sensing Banner">
 </div>
@@ -30,8 +26,10 @@
 - [🛠 开源工具](#-开源工具)
 - [💾 数据集](#-数据集)
 - [🔌 硬件](#-硬件)
+- [🎓 从零到一 (学习路径)](#-从零到一)
 - [👥 社区与贡献](#-社区与贡献)
-- [🧩 Phish-tech 独家呈现](#-phish-tech)
+- [🧩 Phish-tech 独家呈现](#-phish-tech-独家呈现)
+- [🎨 可视化画廊](#-可视化画廊)
 
 ---
 
@@ -45,6 +43,8 @@
 
 更广泛（非 mmWave 专属，但便于交叉检索）的雷达感知索引：
 - `awesome-radar-perception`：https://github.com/ZHOUYI1023/awesome-radar-perception
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
@@ -72,6 +72,8 @@
 补充：多人生命体征的经典 TI 技术报告（工程实现很常被引用）  
 - https://e2echina.ti.com/cfs-file/__key/communityserver-discussions-components-files/60/Vital-Signs-Monitoring-of-Multiple-People-using-a.pdf
 
+[↑ 回到顶部](#awesome-mmwave-sensing)
+
 ---
 
 ### HCI / 手势 / 生物特征
@@ -90,6 +92,7 @@
 | HCI-10 | 2024 | mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification | ACM TOSN | https://doi.org/10.1145/3605945 |
 | HCI-11 | 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | ACM IMWUT | https://doi.org/10.1145/3749504 |
 
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
@@ -109,31 +112,52 @@
 | TRK-10 | 2024 | Waffle: Waterproof mmWave-based Sensing Inside Bathrooms with Running Water | ACM IMWUT | https://doi.org/10.1145/3631458 |
 | TRK-11 | 2025 | DragonFly: Drone-based 3D Localization of Backscatter Tags Using mmWave Radar | ACM MobiCom | https://doi.org/10.1145/3680207.3765269 |
 
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
 ## 🛠 开源工具
 
-- OpenRadar：https://github.com/PreSenseRadar/OpenRadar  
-- ti_mmwave_rospkg：https://github.com/robotics-upo/ti_mmwave_rospkg  
-- TI mmWave SDK（官方）：https://www.ti.com/tool/MMWAVE-SDK  
+- **OpenRadar**：https://github.com/PreSenseRadar/OpenRadar  
+- **ti_mmwave_rospkg**：https://github.com/robotics-upo/ti_mmwave_rospkg  
+- **TI mmWave SDK (官方)**：https://www.ti.com/tool/MMWAVE-SDK  
+- ⭐ **mmWave Preprocessing Tool for Heartbeat Estimation** https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox  
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
 ## 💾 数据集
 
-- RadHAR：https://github.com/nesl/RadHAR  
-- HuPR：https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar  
-- MM-Fi：https://github.com/ybhbingo/MMFi_dataset  
-- mHomeGes-dataset：https://github.com/GestureMan/mHomeGes-dataset  
+- **RadHAR**：https://github.com/nesl/RadHAR  
+- **HuPR**：https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar  
+- **MM-Fi**：https://github.com/ybhbingo/MMFi_dataset  
+- **mHomeGes-dataset**：https://github.com/GestureMan/mHomeGes-dataset  
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
 ## 🔌 硬件
 
-- Texas Instruments（IWR/AWR 系列）示例：IWR6843 https://www.ti.com/product/IWR6843  
-- Infineon XENSIV™ 60GHz 示例：BGT60TR13C https://www.infineon.com/part/BGT60TR13C  
-- Silicon Radar（122GHz ISM）示例：TRX_120_001 https://siliconradar.com/datasheets/Datasheet_TRX_120_001.html  
+- **Texas Instruments (IWR/AWR 系列)** 示例：IWR6843 https://www.ti.com/product/IWR6843  
+- **Infineon XENSIV™ 60GHz** 示例：BGT60TR13C https://www.infineon.com/part/BGT60TR13C  
+- **Silicon Radar (122GHz ISM)** 示例：TRX_120_001 https://siliconradar.com/datasheets/Datasheet_TRX_120_001.html  
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
+
+---
+
+## 🎓 从零到一
+
+毫米波雷达新手？跟随这个学习路径，从概念到落地：
+
+1.  **理论基础 (The Basics)** 📖 阅读经典的 **[TI FMCW Radar Basics](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf)** 白皮书。理解 Range-FFT、Doppler-FFT 和角度估算。
+2.  **快速上手 (The Quickstart)** 🛠️ 运行 **[mmWave-Heartbeat-Toolbox](https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox)**。它解决了复杂的数据解析问题，并提供了一个可运行的生命体征提取基线。
+3.  **学术经典 (The Academic Pillar)** 🎓 阅读奠基之作 **[VS-01 (MobiHoc '16)](#生命体征)**。它定义了目前大多数研究者使用的基于相位的感知流程。
+4.  **社区扩展 (The Community)** 🧩 尝试复现 **[OpenRadar](https://github.com/PreSenseRadar/OpenRadar)** 中的案例，探索检测与跟踪技术。
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
 
 ---
 
@@ -146,9 +170,34 @@
 2. 论文优先：尽量给 DOI 或出版方页面；若无则给 arXiv/项目页
 3. 按索引格式追加：新增 ID + 一行引文信息
 
+**推荐文件**
+- `CONTRIBUTING.md` — 贡献规则与格式
+- `CODE_OF_CONDUCT.md` — 社区准则
+- `CITATION.cff` — 如何引用本列表
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
+
 ---
 
-## 🧩 Phish-tech 独家呈现 （本目录贡献者的开源代码）
+## 🧩 Phish-tech 独家呈现
+
+> 以下项目由本仓库作者提供。
 
 - ⭐ **毫米波雷达心跳呼吸解缠绕算法** — [https://github.com/phish-tech/mmWave-Heartbeat-Toolbox](https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox-)
   *A lightweight, pure Python framework for TI mmWave radar data processing. Features EEMD for robust vital sign extraction. 🚀 Recommended for Beginners.*
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
+
+---
+
+## 🎨 可视化画廊（敬请期待！）
+
+想看看毫米波的实际效果？  
+查看我们的 **[可视化画廊 (Visual Gallery)](GALLERY.md)**：（装修中）
+- 🌊 **Range-Doppler 热力图** 可视化。
+- 🫀 **实时生命体征** 波形（呼吸与心跳）。
+- 🕺 **3D 点云跟踪** 演示。
+
+[![Enter Gallery](https://img.shields.io/badge/Enter-Visual_Gallery-blueviolet?style=for-the-badge&logo=google-photos&logoColor=white)](GALLERY.md)
+
+[↑ 回到顶部](#awesome-mmwave-sensing)
