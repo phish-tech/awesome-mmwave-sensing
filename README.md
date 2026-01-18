@@ -4,10 +4,6 @@
 
 # awesome-mmwave-sensing
 A Roadmap for Quickstart: Curated resources for Vital Signs &amp; HCI. Maintained by phish-tech.
-<!-- ========================= -->
-<!-- File: README.md (English) -->
-<!-- ========================= -->
-
 # awesome-mmwave-sensing
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -31,6 +27,7 @@ A Roadmap for Quickstart: Curated resources for Vital Signs &amp; HCI. Maintaine
 - [🛠 Open Source Tools](#-open-source-tools)
 - [💾 Datasets](#-datasets)
 - [🔌 Hardware](#-hardware)
+- [🎓 Zero to Hero](#-zero-to-hero)
 - [👥 Community & Contributing](#-community--contributing)
 - [🧩 Phish-tech Private Goods (Placed at the End)](#-phish-tech-private-goods-placed-at-the-end)
 
@@ -40,12 +37,13 @@ A Roadmap for Quickstart: Curated resources for Vital Signs &amp; HCI. Maintaine
 
 If you only bookmark a few things:
 
-- **Start from Vital Signs fundamentals:** *mmWave FMCW phase-based extraction + multi-person separation.*  
-- **For HCI:** *Soli (CHI/SIGGRAPH lineage) + IMWUT arm gesture systems.*
+- **Start from Vital Signs fundamentals:** *mmWave FMCW phase-based extraction + multi-person separation.* - **For HCI:** *Soli (CHI/SIGGRAPH lineage) + IMWUT arm gesture systems.*
 - **For Tracking/Imaging:** *milliMap (MobiSys) + HuPR (WACV) + IMWUT multi-person tracking.*
 
 Broader radar perception lists (non-mmWave-specific but useful for cross-referencing):
 - `awesome-radar-perception` (datasets + detection + tracking): https://github.com/ZHOUYI1023/awesome-radar-perception
+
+[↑ Top](#awesome-mmwave-sensing)
 
 ---
 
@@ -69,6 +67,8 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 **More (Vital Signs):**
 - Multi-person TI reference (classic industry technical report): https://e2echina.ti.com/cfs-file/__key/communityserver-discussions-components-files/60/Vital-Signs-Monitoring-of-Multiple-People-using-a.pdf
 
+[↑ Top](#awesome-mmwave-sensing)
+
 ---
 
 ### HCI / Gesture / Biometrics
@@ -87,6 +87,7 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 | HCI-10 | 2024 | mmSign: mmWave-based Few-Shot Online Handwritten Signature Verification | ACM TOSN | DOI: https://doi.org/10.1145/3605945 |
 | HCI-11 | 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | ACM IMWUT | DOI: https://doi.org/10.1145/3749504 |
 
+[↑ Top](#awesome-mmwave-sensing)
 
 ---
 
@@ -94,7 +95,7 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 
 | ID | Year | Title | Venue | Links |
 |---|---:|---|---|---|
-| TRK-01 | 2018 | Indoor Localization Using Commercial Off-The-Shelf 60 GHz Access Points | IEEE INFOCOM | DOI: https://doi.org/10.1109/INFOCOM.2018.8486232 |
+| TRK-01 | 2018 | Indoor Localization Using Commercial Off-The-Shelf 60 GHz Access Points | IEEE INFOCOM | DOI: https://doi.org/10.1145/INFOCOM.2018.8486232 |
 | TRK-02 | 2019 | RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar | ACM mmNets (MobiCom WS) | DOI: https://doi.org/10.1145/3349624.3356768 |
 | TRK-03 | 2020 | milliMap: Robust Indoor Mapping with Low-cost mmWave Radar | ACM MobiSys | DOI: https://doi.org/10.1145/3386901.3388945 |
 | TRK-04 | 2022 | mTransSee: Enabling Real-time mmWave Sparse Imaging through Non-RF Occluders | ACM IMWUT | DOI: https://doi.org/10.1145/3517231 |
@@ -106,6 +107,7 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 | TRK-10 | 2024 | Fast Human Action Recognition via mmWave Radar Point Clouds | ACM (conference proceedings) | DOI: https://doi.org/10.1145/3627673.3679787 |
 | TRK-11 | 2025 | DragonFly: Drone-based 3D Localization of Backscatter Tags Using mmWave Radar | ACM MobiCom | DOI: https://doi.org/10.1145/3680207.3765269 |
 
+[↑ Top](#awesome-mmwave-sensing)
 
 ---
 
@@ -117,8 +119,10 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
   https://github.com/robotics-upo/ti_mmwave_rospkg
 - **TI mmWave SDK (official)** — Firmware + reference processing chain for IWR/AWR devices.  
   https://www.ti.com/tool/MMWAVE-SDK
-- ⭐ **mmWave Preprocessing Tool for Heartbeat Estimation** 
-  https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox  
+- ⭐ **mmWave Preprocessing Tool for Heartbeat Estimation** https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox  
+
+[↑ Top](#awesome-mmwave-sensing)
+
 ---
 
 ## 💾 Datasets
@@ -128,29 +132,49 @@ Broader radar perception lists (non-mmWave-specific but useful for cross-referen
 - **MM-Fi** (multi-modal 4D dataset incl. mmWave radar): https://github.com/ybhbingo/MMFi_dataset  
 - **mHomeGes-dataset** (mmWave arm gestures in smart homes): https://github.com/GestureMan/mHomeGes-dataset  
 
+[↑ Top](#awesome-mmwave-sensing)
+
 ---
 
 ## 🔌 Hardware
 
-- **Texas Instruments (TI) mmWave (IWR/AWR series)**  
-  Example: IWR6843 product page: https://www.ti.com/product/IWR6843
-- **Infineon XENSIV™ 60 GHz radar**  
-  Example: BGT60TR13C: https://www.infineon.com/part/BGT60TR13C
-- **Silicon Radar (122 GHz ISM band devices)**  
-  Example: TRX_120_001 datasheet: https://siliconradar.com/datasheets/Datasheet_TRX_120_001.html
+- **Texas Instruments (TI) mmWave (IWR/AWR series)** Example: IWR6843 product page: https://www.ti.com/product/IWR6843
+- **Infineon XENSIV™ 60 GHz radar** Example: BGT60TR13C: https://www.infineon.com/part/BGT60TR13C
+- **Silicon Radar (122 GHz ISM band devices)** Example: TRX_120_001 datasheet: https://siliconradar.com/datasheets/Datasheet_TRX_120_001.html
+
+[↑ Top](#awesome-mmwave-sensing)
+
+---
+
+## 🎓 Zero to Hero
+
+New to mmWave radar? Follow this learning path to go from concept to implementation:
+
+1.  **Theory (The Basics)** 📖 Read the classic **[TI FMCW Radar Basics](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf)** whitepaper. Understand Range-FFT, Doppler-FFT, and Angle Estimation.
+2.  **Hands-on (The Quickstart)** 🛠️ Run the **[mmWave-Heartbeat-Toolbox](https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox)**. It handles the complex data parsing and gives you a working vital signs baseline.
+3.  **Deep Dive (The Academic Pillar)** 🎓 Read the foundational paper **[VS-01 (MobiHoc '16)](#vital-signs)**. It defined the phase-based sensing pipeline used by most researchers today.
+4.  **Expansion (The Community)** 🧩 Try replicating examples from **[OpenRadar](https://github.com/PreSenseRadar/OpenRadar)** to explore detection and tracking.
+
+[↑ Top](#awesome-mmwave-sensing)
 
 ---
 
 ## 👥 Community & Contributing
 
-We believe that an "Awesome" list is built by the community. We'd love for you to help us improve this list!
+Contributions are welcome and appreciated.
 
-**Want to add a paper, tool, or dataset?**
-Please read our 👉 **[Contribution Guidelines](CONTRIBUTING.md)** first.
+**How to add a paper/tool/dataset**
+1. Keep scope: **mmWave radar sensing** (vital signs / HCI / tracking & imaging).
+2. Prefer peer-reviewed venues (ACM/IEEE/Elsevier/Nature family) and stable links (DOI/project page).
+3. Follow the indexing format: add a new ID and a one-line citation.
 
-It helps you format your entry correctly (ID, Year, Venue) so we can merge your PR faster!
+**Suggested repo files**
+- `CONTRIBUTING.md` — contribution rules + formatting
+- `CODE_OF_CONDUCT.md` — community policy
+- `CITATION.cff` — how to cite this list
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[↑ Top](#awesome-mmwave-sensing)
+
 ---
 
 ## 🧩 Phish-tech Present
@@ -159,3 +183,5 @@ It helps you format your entry correctly (ID, Year, Venue) so we can merge your 
 
 - ⭐ **mmWave Preprocessing Tool for Heartbeat Estimation** — [https://github.com/phish-tech/mmWave-Heartbeat-Toolbox](https://github.com/phish-tech/mmWave-Heartbeat-Dataset-Preprocessing-Toolbox-)  
   *A lightweight, pure Python framework for TI mmWave radar data processing. Features EEMD for robust vital sign extraction. 🚀 Recommended for Beginners.*
+
+[↑ Top](#awesome-mmwave-sensing)
