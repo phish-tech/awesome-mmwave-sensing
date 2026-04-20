@@ -17,6 +17,15 @@ A Roadmap for Quickstart: Curated resources for Vital Signs &amp; HCI. Maintaine
 
 ---
 
+## 🎨 Show, Don't Tell: The [Visual Gallery](GALLERY.md)
+
+Want to see what mmWave radar signals actually look like under the hood? Check out our **[Visual Gallery](GALLERY.md)** for high-quality, reproducible demonstrations:
+- 🫀 **Vital Signs:** EEMD separation of micro-heartbeats from massive respiration signals.
+- ✋ **HCI & Gestures:** Synthetic Micro-Doppler signatures for hand kinematics.
+- 📍 **Tracking:** 3D sparse point cloud tracking with DBSCAN clustering.
+
+---
+
 ## Table of Contents
 
 - [🔥 Featured / Recommended](#-featured--recommended)
